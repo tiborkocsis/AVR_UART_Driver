@@ -1,0 +1,22 @@
+Nem megvalósított függvények, és a bennük elvégzendő feladatok:
+
+void HAL_UART_Config_Hw(void);
+- Az UART modul regiszterek inicializálása
+- Baudrate kalkuláció
+- Interruptok és interrupt vektor tábla inicializálása
+
+void HAL_UART_Put_TxChar(uint8_t Char);
+- Adat kiírása az UART modulba
+
+uint8_t HAL_UART_Get_RxChar(void);
+- Adat kiolvasása az UART modulból
+
+void HAL_UART_Put_TxParity(uint8_t Parity);
+- Paritás bit kiírása az UART modulba
+
+uint8_t HAL_UART_Get_RxParity(void);
+- Paritás bit bolvasása az UART modulból
+
+
+Ezek megvalósítása az adott AVR mikrokontroller UART moduljának részletesebb ismeretét kívánják.
+Az ehhez szükséges munka mennyisége körülbelül 3-4 óra.

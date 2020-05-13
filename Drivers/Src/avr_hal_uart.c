@@ -198,6 +198,7 @@ void HAL_UART_Config_Hw(void)
 
 /**
   * @brief Put a char into UART Tx module
+  * @param Char Data byte to be transmitted.
   * @retval None
   */
 void HAL_UART_Put_TxChar(uint8_t Char)
@@ -219,6 +220,7 @@ uint8_t HAL_UART_Get_RxChar(void)
 
 /**
   * @brief Put parity bit into UART Tx module
+  * @param Parity Parity bit (BIT0) to be transmitted.
   * @retval None
   */
 void HAL_UART_Put_TxParity(uint8_t Parity)
